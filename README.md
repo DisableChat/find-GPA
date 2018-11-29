@@ -2,7 +2,7 @@
   A small program that returns a vector of students that are between the jth largest and kth largest, inclusive in the original vector       list. Without actually sorting the original vector. (While also keeping a 'fast' runtime with large samples of data)
 
 ## Objective
-  ### Doing efficiently as possible(idea of this program is to do it in linear time)
+  ### Doing efficiently as possible (The idea of this program is to do it in linear time)
     however I did my median of medians in correctly so it runs in 0(n^2) which is really bad.
     after I fix the median of medians it should be 0(n) runtime.
   
