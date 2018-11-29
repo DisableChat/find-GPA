@@ -1,10 +1,10 @@
 # find-GPA
-  A small program that returns a vector of students that are between the jth largest and kth largest, inclusive in the original vector       list. Without actually sorting the original vector. (While also keeping a 'fast' runtime with large samples of data)
+  A small program that returns a vector of students that are between the jth largest and kth largest, inclusive in the original vector       list. Without actually sorting the original vector. While also having a lower runtime (O(n) time complexity).
 
 ## Objective
   ### Doing efficiently as possible (The idea of this program is to do it in linear time)
-    however I did my median of medians in correctly so it runs in 0(n^2) which is really bad.
-    after I fix the median of medians it should be 0(n) runtime.
+    however I did my median of medians in correctly so it runs in O(n^2) which is really bad.
+    after I fix the median of medians it should be O(n) runtime.
   
  ### The functions must return a vector of all the students that are between the jth largest
     and kth largest inclusive in vector list. j and k start at 0, and run to the size of list
@@ -20,7 +20,8 @@
     
   #### calling: inbetweenGpa(students, 0, 99, num_compares);
     returns a vector of 100 students whose GPAs are next lowest relative to the previous
-    call to inbetweenGPA. (So if the list was 100 long then it would return the 100 students in order, lowest gpa to highest).
+    call to inbetweenGPA. (So if the list was 100 long then it would return the 
+    100 students in order, lowest gpa to highest).
 
     
  #### calling: inbetweenAlpha(students, 0, 0, num_compares);
