@@ -1,5 +1,5 @@
 # find-GPA
-  A small program that returns a vector of students that are between the jth largest and kth largest, inclusive in the original vector       list. Without actually sorting the original vector.
+  A small program that returns a vector of students that are between the jth largest and kth largest, inclusive in the original vector       list. Without actually sorting the original vector. (While also keeping a 'fast' runtime with large samples of data)
 
 ## Objective
   ### Doing efficiently as possible(idea of this program is to do it in linear time)
